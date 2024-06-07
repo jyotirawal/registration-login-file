@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="inner">
+            <div class="img">
+            <img src="profile 2.png">
+    </div>   
+        <form>
+            <h1>Registration info</h1>
+            <div class="full-name">
+            <input type="text" class="form-input" placeholder="Full Name">
+            </div>
+        
+            <div class = "form-group">
+               <input type="text" class="form-input" placeholder="User Name">
+            </div>
+
+            <div class = "form-group">
+             <input type="password" class="form-input" placeholder="Password">
+              </div>
+
+                 <div class = "form-group">
+                 <input type="password" class="form-input" placeholder="Confirm Password"
+                    required="" minlength="8" maxlength="10">
+                </div>
+
+                <div class = "form-group">
+                <input type="email" class="form-input" placeholder="Email Address :-"
+                required="@" />
+            </div>
+
+            <div class = "form-group">
+             <input type="Tel" class="form-input" placeholder="Phone Number">
+            </div>
+
+            <div class = "form-group">
+                <label for>Date-of-birth</label>
+             <input type="date" class="form-input" placeholder="Date">
+             </div>
+
+          <div id="gender-text">
+            <label for>Gender : </label>
+            <input type="radio" name = "gender"> Male <input type="radio" name ="gender"> Female 
+            <input type="radio" name="gender"> Other
+      </div>
+
+      <div id="hobbies">
+        <label for>Hobbies : </label>
+        <input type="checkbox"> Reading <input type="checkbox"> Travelling
+       <input type="checkbox"> Cooking <input type="checkbox"> Other
+  </div>
+      
+             <div id="country-name" class="form-wrapper">
+                <label for>Country</label>
+                <select id="country-list" class="form-input">
+                    <option value="">Select your country</option>
+                    <option value="India">India</option>
+                    <option value="canada">Canada</option>
+                    <option value="newyork">New York</option>
+                    <option value="germany">Germany</option>
+                    <option value="china">china</option>
+                </select>
+
+                <div id="bio">
+                    <label>Bio</label>
+                    <textarea id="bio-text" placeholder="Textarea"></textarea>
+                </div>
+        
+      <div id="condition">
+        <label>Agree with Terms & Condition :</label>
+        <input type="checkbox"> Yes
+        <input type="checkbox"> No
+       </div>       
+          
+ <div class="button">
+    <button type="button" class="btn btn-success mb-3 mt-4 mx-5">Submit</button>
+    <button type="button" class="btn btn-danger mb-3 mt-4 mx-5">Reset</button>
+    </form>
+    </div> 
+</div>
+</body>
+</html>
